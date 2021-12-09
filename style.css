@@ -41,30 +41,25 @@
     background-color: #f3f4f6;
     color: #111827;
 }
-.color-box1{
+.color-box{
     width: 20px;
     height: 20px;
-    border: 2px solid rgb(255, 254, 254);
+    border-style: solid;
+    border-width: 2px;
     border-radius: 5px;
     cursor: pointer;
     margin: 15px;
 }
-.color-box2{
-    width: 20px;
-    height: 20px;
-    border: 2px solid rgb(255, 248, 248);
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 15px;
+ .sammy1{
+
+    border-color: white;
+    
 }
-.color-box3{
-    width: 20px;
-    height: 20px;
-    border: 2px solid black;
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 15px;
+ .sammy2{
+    border-color: black;
+
 }
+
 
 .sidebar.night{
     background-color: #312e81;
