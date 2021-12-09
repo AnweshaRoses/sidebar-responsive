@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+}
+.sidebar{
+    width: 50px;
+    min-height: 100%;
+    background-color: #111827;;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    color: white;
+}
+.left-menu-icon{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.sidebar-bottom{
+    width: 80%;
+    padding: 10px 0;
+    margin-top: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #4b4b4b;
+    justify-content: center;
+    flex-direction: column;
+}
+.dark{
+    background-color: #111827;
+    color:#f3f4f6;
+    
+}
+.night{
+    background-color: #312e81;
+}
+.light{
+    background-color: #f3f4f6;
+    color: #111827;
+}
+.color-box1{
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgb(255, 254, 254);
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 15px;
+}
+.color-box2{
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgb(255, 248, 248);
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 15px;
+}
+.color-box3{
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 15px;
+}
+
+.sidebar.night{
+    background-color: #312e81;
+    color: #b4bbc7;
+    
+}
+.sidebar .light{
+    background-color: #f3f4f6;
+}
+.sidebar.dark{
+    background-color: #111827;
+}
+.left-menu-icon .active .light{
+    color: black;
+}
+
+
+
